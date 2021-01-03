@@ -8,10 +8,8 @@ Trying to install macOS Mojave using
 ### Booting into macOS Mojave USB installer
 - trackpad doesn't work on boot to the installer
 - internal keyboard also doesn't work
-
 ### Booting into installed macOS Mojave after install
-![](images/clover-bootloader-after-install.jpg)
-
+[clover]: 'images/clover bootloader after install.jpg'
 - macOS continues to the installation after reboot
   - pretty slow compared to when installing macOS on an MacBook Pro
   - reboots after this
