@@ -1,6 +1,6 @@
 # 2021-01-02 first install pass
 
-Trying to install macOS Mojave using 
+Trying to install macOS Mojave using
 - [UniBeast 9.3.0 - Mojave](https://www.tonymacx86.com/resources/unibeast-9-3-0-mojave.449/)
 - [MultiBeast 11.3.0 - Mojave](https://www.tonymacx86.com/resources/multibeast-11-3-0-mojave.430/)
 
@@ -35,7 +35,7 @@ Trying to install macOS Mojave using
 
 # 2021-01-03 What works and what doesn't (essentials)
 
-I define essentials as the list of things that will fulfill my use case for this hackintosh. This build is to serve as a secondary Mac that will have the essential software packages, configurations and files so I can quickly switch to using it if something bad happens to my main machine. That said, this build's state fully fulfills that need. Though primarily I would also like to make the internal Wi-Fi working and brightness control working for convenience. 
+I define essentials as the list of things that will fulfill my use case for this hackintosh. This build is to serve as a secondary Mac that will have the essential software packages, configurations and files so I can quickly switch to using it if something bad happens to my main machine. That said, this build's state fully fulfills that need. Though primarily I would also like to make the internal Wi-Fi working and brightness control working for convenience.
 
 ## Works
 - Internal keyboard (voodoo)
@@ -53,3 +53,10 @@ I define essentials as the list of things that will fulfill my use case for this
 # 2021-01-03 things to try to get working
 - Internal Wi-Fi
 - Brightness Control
+
+
+# 2021-01-03 clover update fail
+I updated clover using clover configurator, restarted and the internal keyboard and internal trackpad, and USB input devices stopped working. 😅
+
+Desktop sharing was disable so I couldn't VNC into the hackintosh. Fortunately, I had ssh access enabled. First, I tried https://github.com/BlueM/cliclick to send key presses to the hackintosh and hopefully load and reinstall my previous working config using Multibeast. It didn't work or at least I gave up due to the complexity. Then I wondered if I can enable VNC via the command line while logged in via SSH. [It turned out that I can.](https://www.techrepublic.com/article/how-to-enable-screen-sharing-on-macs-via-terminal/)
+
