@@ -47,3 +47,7 @@ I define essentials as the list of things that will fulfill my use case for this
 - SD card reader
 - Internal Wi-Fi card
 - Bluetooh (but might be a hardware problem)
+
+# 2021-01-03 things to try to get working
+- Internal Wi-Fi
+- Brightness Control
