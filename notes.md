@@ -60,3 +60,5 @@ I updated clover using clover configurator, restarted and the internal keyboard 
 
 Desktop sharing was disable so I couldn't VNC into the hackintosh. Fortunately, I had ssh access enabled. First, I tried https://github.com/BlueM/cliclick to send key presses to the hackintosh and hopefully load and reinstall my previous working config using Multibeast. It didn't work or at least I gave up due to the complexity. Then I wondered if I can enable VNC via the command line while logged in via SSH. [It turned out that I can.](https://www.techrepublic.com/article/how-to-enable-screen-sharing-on-macs-via-terminal/)
 
+# 2021-01-04 can't control fan
+I became aware that the G400's fan is not detected. Thus the CPU throttle's down when it reaches certain temperatures. The laptop is also pretty hot because of this.
